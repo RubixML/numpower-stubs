@@ -4,21 +4,21 @@ const NUMPOWER_CPU = 0;
 
 final class NDArray {
     /**
-     * Copy the NumPower to the CPU for computation. If the NumPower is already in RAM, a copy will still be made.
+     * Copy the NDArray to the CPU for computation. If the NDArray is already in RAM, a copy will still be made.
      *
      * @return void
      */
     public function cpu(): void {}
 
     /**
-     * Copy the NumPower to the GPU for computation. If the NumPower is already in VRAM, a copy will still be made.
+     * Copy the NDArray to the GPU for computation. If the NDArray is already in VRAM, a copy will still be made.
      *
      * @return void
      */
     public function gpu(): void {}
 
     /**
-     * Check if the NumPower is stored on the GPU.
+     * Check if the NDArray is stored on the GPU.
      *
      * @return bool
      */
