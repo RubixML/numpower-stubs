@@ -1,0 +1,12 @@
+{
+    "name": "rubixml/numpower",
+    "type": "library",
+    "license": "MIT",
+    "description": "PHP extension for efficient scientific computing and array manipulation with GPU support.",
+    "require": {
+      "php": ">=8.4",
+      "ext-rubixnumpower": ">=0.7"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+  }
